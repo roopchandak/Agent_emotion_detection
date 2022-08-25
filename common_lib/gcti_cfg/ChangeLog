@@ -1,0 +1,57 @@
+model_cfgpersonplace.py -- /main/2 -- 9/12/2011@14:57 (+2*27) by epi (Mikhail Epiktetov)
+model_cfgobject.py -- /main/2 -- 9/12/2011@14:57 (+19-13*137) by epi (Mikhail Epiktetov)
+model_cfgdn.py -- /main/2 -- 9/12/2011@14:57 (*9) by epi (Mikhail Epiktetov)
+model_cfgapplication.py -- /main/2 -- 9/12/2011@14:57 (*5) by epi (Mikhail Epiktetov)
+  Merged current version from /vobs/hpe/utils/pycfg/gcti_cfg@@/main/dco-8.0.000/LATEST
+
+model_configserver.py -- /main/4 -- 9/12/2011@13:41 (*1) by epi (Mikhail Epiktetov)
+  CfgServerInfo restored (lost in prev.version by accident)
+model_configserver.py -- /main/3 -- 9/12/2011@12:03 (-1*36) by epi (Mikhail Epiktetov)
+  Merged from /vobs/qaart/tester/cfg/model_configserver.py@@/main/dco-8.0.000/10
+model_cfgrole.py -- /main/2 -- 9/12/2011@12:02 (*49) by epi (Mikhail Epiktetov)
+  Merged from /vobs/qaart/tester/cfg/model_cfgrole.py@@/main/dco-8.0.000/4
+
+_READ_ME_ -- /main/1 -- 6/22/2011@12:34 (+31) by epi (Mikhail Epiktetov)
+  Added _READ_ME_ file with the explanation of what it is and sample usage
+
+__init__.py -- /main/3 -- 4/29/2011@17:08 (*8) by epi (Mikhail Epiktetov)
+  Added Windows platform support
+lib.windows-x86-2.6/conflib.pyd -- /main/1 -- 4/29/2011@17:05 () by epi (Mikhail Epiktetov)
+lib.windows-x86-2.4/conflib.dll -- /main/1 -- 4/29/2011@17:05 () by epi (Mikhail Epiktetov)
+  Binary conflib module (taken from /vobs/qaart/tester/DLL2x latest in branch
+  /main/dco-8.0.000); TODO: build from source in ../confservlib
+
+__init__.py -- /main/2 -- 4/20/2011@15:56 (+1) by epi (Mikhail Epiktetov)
+  Added path to itself, to play nice with scslib module
+
+lib.linux-x86_64-2.4/conflib.so -- /main/1 -- 4/5/2011@15:45 () by epi (Mikhail Epiktetov)
+  Pre-build conflib binary module for linux-x86_64-2.4 platform (using libs:
+  confserv/gservice=8.1.000.04, support=8.1.000.02, common2=8.1.000.09)
+__init__.py -- /main/1 -- 4/5/2011@15:42 (+11) by epi (Mikhail Epiktetov)
+  Initialization script for gcti_cfg package (lib.linux-x86_64-2.4 hardcoded)
+
+model_configserver.py -- /main/1 -- 2/2/2011@19:25 (+535) by epi (Mikhail Epiktetov)
+model_cfgvoiceprompt.py -- /main/1 -- 2/2/2011@19:25 (+45) by epi (Mikhail Epiktetov)
+model_cfgtreatmentfilter.py -- /main/1 -- 2/2/2011@19:25 (+100) by epi (Mikhail Epiktetov)
+model_cfgtransaction.py -- /main/1 -- 2/2/2011@19:25 (+35) by epi (Mikhail Epiktetov)
+model_cfgtimezone.py -- /main/1 -- 2/2/2011@19:25 (+60) by epi (Mikhail Epiktetov)
+model_cfgtenant.py -- /main/1 -- 2/2/2011@19:25 (+98) by epi (Mikhail Epiktetov)
+model_cfgtable.py -- /main/1 -- 2/2/2011@19:25 (+183) by epi (Mikhail Epiktetov)
+model_cfgtableaccess.py -- /main/1 -- 2/2/2011@19:25 (+66) by epi (Mikhail Epiktetov)
+model_cfgswitch.py -- /main/1 -- 2/2/2011@19:25 (+322) by epi (Mikhail Epiktetov)
+model_cfgstatdaytable.py -- /main/1 -- 2/2/2011@19:25 (+116) by epi (Mikhail Epiktetov)
+model_cfgsolution.py -- /main/1 -- 2/2/2011@19:25 (+88) by epi (Mikhail Epiktetov)
+model_cfgrole.py -- /main/1 -- 2/2/2011@19:25 (+28) by epi (Mikhail Epiktetov)
+model_cfgpersonplace.py -- /main/1 -- 2/2/2011@19:25 (+470) by epi (Mikhail Epiktetov)
+model_cfgobject.py -- /main/1 -- 2/2/2011@19:25 (+2851) by epi (Mikhail Epiktetov)
+model_cfgivr.py -- /main/1 -- 2/2/2011@19:25 (+137) by epi (Mikhail Epiktetov)
+model_cfggroup.py -- /main/1 -- 2/2/2011@19:25 (+549) by epi (Mikhail Epiktetov)
+model_cfgfolder.py -- /main/1 -- 2/2/2011@19:25 (+105) by epi (Mikhail Epiktetov)
+model_cfgenumerator.py -- /main/1 -- 2/2/2011@19:25 (+102) by epi (Mikhail Epiktetov)
+model_cfgdn.py -- /main/1 -- 2/2/2011@19:25 (+197) by epi (Mikhail Epiktetov)
+model_cfgcampaign.py -- /main/1 -- 2/2/2011@19:25 (+239) by epi (Mikhail Epiktetov)
+model_cfgapplication.py -- /main/1 -- 2/2/2011@19:25 (+1448) by epi (Mikhail Epiktetov)
+model_cfgalarms.py -- /main/1 -- 2/2/2011@19:25 (+124) by epi (Mikhail Epiktetov)
+pconflib.py -- /main/1 -- 2/2/2011@19:25 (+532) by epi (Mikhail Epiktetov)
+  Files taken from /vobs/qaart/tester/cfg branch /main/dco-8.0.000/LATEST
+

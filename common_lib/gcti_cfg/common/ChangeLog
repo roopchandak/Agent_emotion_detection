@@ -1,0 +1,18 @@
+model_logtracer.py -- /main/1 -- 4/5/2011@11:38 (+22) by epi (Mikhail Epiktetov)
+  Empty implementation of ServerLogTracer interface (does not do anything, but
+  required by AbstractServer.Open() in model.py)
+
+default_servers.py -- /main/1 -- 4/5/2011@11:34 (+106) by epi (Mikhail Epiktetov)
+model_abstractobject.py -- /main/1 -- 4/5/2011@11:34 (+68) by epi (Mikhail Epiktetov)
+  Files taken from /vobs/qaart/tester/common branch /main/dco-8.0.000/LATEST
+
+common.py -- /main/2 -- 4/5/2011@11:33 (*1377) by epi (Mikhail Epiktetov)
+  Import from test_view made optional (enclosed in try/except), converted from
+  DOS to UNIX format (sorry, my text editor do it automatically)
+
+model.py -- /main/1 -- 2/2/2011@19:28 (+848) by epi (Mikhail Epiktetov)
+enum.py -- /main/1 -- 2/2/2011@19:28 (+121) by epi (Mikhail Epiktetov)
+common.py -- /main/1 -- 2/2/2011@19:27 (+1377) by epi (Mikhail Epiktetov)
+common_enum.py -- /main/1 -- 2/2/2011@19:27 (+2656) by epi (Mikhail Epiktetov)
+  Files taken from /vobs/qaart/tester/common branch /main/dco-8.0.000/LATEST
+
